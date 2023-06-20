@@ -135,9 +135,8 @@ function HomePage() {
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In velit ut viverra fames sed."
           elements={[
             <Grid
-              columns={3}
               additionalClasses="mt-10 gap-28 items-baseline lg:gap-x-24 lg:gap-y-12"
-              additionalElementContainerClasses="flex-1"
+              additionalElementContainerClasses="flex-1 basis-1/4"
               elements={[
                 'Peluquería',
                 'Odontología',

@@ -1,12 +1,10 @@
 interface GridProps {
-  columns: number;
   elements: JSX.Element[];
   additionalClasses?: string;
   additionalElementContainerClasses?: string;
 }
 
 const Grid = ({
-  columns,
   elements,
   additionalClasses,
   additionalElementContainerClasses,
